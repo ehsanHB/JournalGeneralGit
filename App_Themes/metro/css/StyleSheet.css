@@ -1,0 +1,129 @@
+﻿
+@font-face {
+    font-family: 'Cooper';
+    src: url('../fonts/COOPBL.TTF?izvoei') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BuxtonSketch';
+    src: url('../fonts/BuxtonSketch.ttf?izvoei') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Andalus;
+    src: url('../fonts/andlso.ttf?izvoei') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baskerville Old Face';
+    src: url('../fonts/BASKVILL.TTF?izvoei') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body,form {
+    height: 100%;
+}
+
+.page-content {
+    padding-top: 3.125rem;
+    min-height: 100%;
+    height: 100%;
+}
+
+.table .input-control.checkbox {
+    line-height: 1;
+    min-height: 0;
+    height: auto;
+}
+
+.OverFlowScrol {
+    overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    #cell-sidebar {
+        flex-basis: 52px;
+    }
+
+    #cell-content {
+        flex-basis: calc(100% - 52px);
+    }
+}
+
+/* auto fill drop down */
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+ul.ui-widget-content {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.sidebar2 li a {
+    background-color: #002342;
+    color: #FFF;
+    white-space: normal;
+    min-width: 0;
+}
+
+.sidebar2 li li:not(:hover) a {
+    background-color: #002342;
+}
+
+.FontCooper {
+    font-family: Cooper;
+}
+
+
+.FontBuxton {
+    font-family: BuxtonSketch;
+}
+
+.FontAndalus {
+    font-family: Andalus;
+}
+
+.FontBaskvill {
+    font-family: 'Baskerville Old Face';
+}
+
+.DialogB {
+    padding: 15px;
+}
+
+.chosen-container-single .chosen-single {
+   
+    height:33px !important;
+    padding-top:3px !important;
+}
+
+.GridAlignCenter{
+    align-content:center;
+    align-items:center;
+    text-align:center;
+}
